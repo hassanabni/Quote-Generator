@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(118, 197, 213);
+  font-family: 'Poppins', serif;
+}
+.container {
+  margin-top: 190px;
+}
+.card {
+  background-color: aliceblue;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+}
+.heading {
+  margin: 20px 0px;
+  text-align: -webkit-center;
+  font-style: italic;
+}
+.heading h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding: 5px 0px;
+  font-weight: 400;
+}
+.heading hr {
+  border: 1px solid rgb(40, 40, 148);
+  margin: 5px;
+  width: 70px;
+}
+.quotes {
+  font-size: 1.3rem;
+}
+.quotes .quote {
+  text-align: center;
+  padding: 20px;
+}
+.author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+}
+.author .author-line {
+  border: 1px solid rgb(40, 40, 148);
+  width: 31px;
+  margin: 8px;
+}
+.author .author-name {
+  font-size: 0.8rem;
+  padding-right: 15px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0px;
+}
+.change-quote {
+  border-radius: 10px;
+  width: 129px;
+  height: 48px;
+  outline: none;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.open-link {
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  width: 129px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.change-quote:hover {
+  background: rgb(3, 3, 99);
+  color: aliceblue;
+}
+.open-link:hover {
+  background: rgb(3, 3, 99);
+  color: aliceblue;
+}
+.open-link img {
+  width: 20px;
+  height: 20px;
+}
